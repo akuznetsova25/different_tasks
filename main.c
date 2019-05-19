@@ -34,7 +34,6 @@ struct Node* tree_add(struct Node* p, int x)
     {
         p->right = tree_add(p->right, x);
     }
-    printf("%d ", p);
     return p;
 }
 
